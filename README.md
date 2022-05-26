@@ -1,6 +1,6 @@
 # Automatische Updates für REDAXO 5
 
-Lädt automatisch neue Updates aus dem REDAXO-Installer herunter.
+Lädt täglich automatisch neue Updates aus dem REDAXO-Installer herunter
 ## Features
 
 * Prüft und installiert täglich Updates aus dem REDAXO-Installer
