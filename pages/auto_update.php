@@ -25,10 +25,6 @@ $field = $form->addCheckboxField('addon_major');
 $field->setLabel("Addon");
 $field->addOption('Major-Updates', '1');
 
-$field = $form->addCheckboxField('addon_major');
-$field->setLabel("Addon");
-$field->addOption('Major-Updates', '1');
-
 $field = $form->addInputField('text', 'ignore', null, ["class" => "form-control"]);
 $field->setLabel("Packages ignorieren");
 
@@ -37,7 +33,7 @@ $field->setLabel("Vertrauenswürdige Quellen");
 $field->addOption('nur aus vertrauenswürdigen Quellen (nachfolgende Liste) installieren', '1');
 
 $field = $form->addInputField('text', 'trusted_authors', null, ["class" => "form-control"]);
-$field->setLabel("Autoren");
+$field->setLabel("Vertrauenswürdige Autoren");
 
 $fragment = new rex_fragment();
 $fragment->setVar('class', 'edit', false);
