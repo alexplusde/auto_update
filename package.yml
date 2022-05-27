@@ -16,6 +16,12 @@ page:
     prio: 100                       
     icon: rex-icon fa-gear
 
+pages:
+    autoupdate:
+        title: translate:auto_update_title    
+        prio: 100                       
+        icon: rex-icon fa-gear
+
 default_config:
     core_patch: 1
     core_minor: 0
